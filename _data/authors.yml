@@ -1,0 +1,26 @@
+oak-ai:
+  name: "OAK AI"
+  avatar: "/assets/images/OAKSQ.png"
+  bio: "Advancing responsible AI to make technology safe, ethical, and accessible to all."
+  links:
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://www.oakai.au"
+    - label: "OAK AI GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://www.github.com/OAK-AI-Public"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/company/oakaiau/"
+
+keith-oak:
+  name: "Keith Oak"
+  avatar: "/assets/images/keith.jpg"
+  bio: "Founder and Technology Specialist at OAK AI. Passionate about responsible and ethical AI."
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://www.github.com/keith-oak"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/keithoak/"

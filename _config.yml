@@ -13,16 +13,17 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: OAK AI Github Pages
+title: OAK AI Github
 email: info@oakai.au
 description: >- # this means to ignore newlines until "baseurl:"
   A modern and efficient platform for sharing open-source AI projects and documentation.
 domain: oak-ai-public.github.io
-baseurl: /oak-ai-public.github.io/ # the subpath of your site, e.g. /blog
-url: "https://oak-ai-public.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://oak-ai-public.github.io"
 github_username: keith-oak
 minimal_mistakes_skin: default
 search: true
+author: oak-ai
+publicsiteurl: "https://oakai.au"
 
 # Build settings
 markdown: kramdown
@@ -31,6 +32,8 @@ permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: Australia/Brisbane
+
+favicon: "/assets/images/favicon.ico"
 
 include:
   - _pages
@@ -56,36 +59,16 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
-author:
-  name   : "Keith Oak"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Passionate about open-source AI and creating impactful solutions."
-  links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://oakai.au"
-    - label: "OAK AI Public GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/OAK-AI-Public"
-    - label: "OAK AI Enterprise GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/enterprises/oakai"
-    - label: "Personal GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/keith-oak"
-
+authors_dir: _data/authors.yml
 
 footer:
   links:
-    - label: "OAK AI Public GitHub"
+    - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/OAK-AI-Public"
-    - label: "OAK AI Enterprise GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/enterprises/oakai"
-    - label: "Personal GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/keith-oak"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/company/oakaiau/"
 
 defaults:
   # _posts
@@ -96,9 +79,9 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: true
-      share: true
-      related: true
+      comments: false
+      share: false
+      related: false
   # _pages
   - scope:
       path: "_pages"
@@ -113,3 +96,6 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+words_per_minute: 200
+open_links_in_new_tab: true

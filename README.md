@@ -1,6 +1,6 @@
-# OAK AI Public GitHub Pages
+# OAK AI GitHub Pages
 
-This repository hosts the OAK AI Public GitHub Pages, built using the Minimal Mistakes Jekyll theme.
+This repository hosts the OAK AI GitHub Pages, built using the Minimal Mistakes Jekyll theme.
 
 ## Features
 
